@@ -3,113 +3,103 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@ARTICLE{Lu2024quality,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abbr={IEEE Access},
+  author={Lu, Huaizheng and Wang, Shiwei and Zhang, Dedong and Huang, Bin and Chen, Erkang and Sui, Yunfeng},
+  journal={IEEE Access}, 
+  title={Toward Accurate Quality Assessment of Machine-Generated Infrared Video Using Fréchet Video Distance}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={168837-168852},
+  keywords={Measurement;Feature extraction;Quality assessment;Computational modeling;Video recording;Cameras;Three-dimensional displays;Infrared imaging;Videos;Correlation;Visual analytics;Machine-generated infrared video;Fréchet video distance;I3D model;correlation analysis;GAN},
+  doi={10.1109/ACCESS.2024.3453406}}
+
+
+@article{YIN2024MUPT,
+bibtex_show={true},
+abbr={Displays},
+selected={true},
+title = {MUPT-Net: Multi-scale U-shape pyramid transformer network for Infrared Small Target Detection},
+journal = {Displays},
+volume = {83},
+pages = {102681},
+year = {2024},
+issn = {0141-9382},
+doi = {https://doi.org/10.1016/j.displa.2024.102681},
+url = {https://www.sciencedirect.com/science/article/pii/S0141938224000453},
+author = {Junjie Yin and Jingxia Jiang and Weijia Li and Erkang Chen and Liyuan Chen and Lihan Tong and Bin Huang},
+keywords = {Infrared small target detection, U-shape interaction module, Axial compression attention module, Transformer, Information interaction},
+abstract = {Infrared Small Target Detection (IRSTD) aims to detect small and dim targets in complex backgrounds. However, the low signal-to-noise ratio and reduced contrast in the infrared domain make it challenging to extract these targets, as the cluttered background can easily overpower them. Existing Convolutional Neural Networks (CNN)-based methods for IRSTD often suffer from information loss due to inadequate utilization of acquired information after downsampling operations. This limits their ability to accurately extract shape information related to infrared small targets. To address this challenge, we propose a Multi-scale U-shape Pyramid Transformer Network (MUPT-Net). Our network incorporates the U-shape Interaction Module (UIM) and the Multi-scale ViT Module (MSVM) to perform feature extraction. By fully leveraging and integrating the information obtained after each downsampling operation, our approach enables precise extraction of shape information for infrared small targets. Additionally, we introduce the Axial Compression Attention module (ACA), which focuses on capturing the interplay of positional information within the feature map to facilitate accurate detection of small targets. Through iteratively fusing and augmenting multi-scale features, our MUPT-Net effectively assimilates and harnesses contextual information of small targets. Experimental results on the SIRST v1, SIRST v2 and NUDT-SIRST datasets demonstrate the superiority of our approach compared to representative state-of-the-art (SOTA) IRSTD methods.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@INPROCEEDINGS{chen2024MUIR,
+  author={Chen, Liyuan and Li, Weijia and Yang, Qingxia and Tong, Lihan and Chen, Erkang and Huang, Bin and Li, RuiWen},
+  booktitle={2024 4th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)}, 
+  title={MUIR: Mamba for Underwater Image Rendering}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={172-177},
+  keywords={Measurement;Image quality;Image synthesis;Computational modeling;Computer architecture;Machine learning;Rendering (computer graphics);underwater image;Mamba;rendering;lightweight},
+  doi={10.1109/MLISE62164.2024.10674249}}
+
+@article{CHEN2024Dual,
+bibtex_show={true},
+abbr={Digi. Sig. Proc.},
+title = {Dual-former: Hybrid self-attention transformer for efficient image restoration},
+journal = {Digital Signal Processing},
+volume = {149},
+pages = {104485},
+year = {2024},
+issn = {1051-2004},
+doi = {https://doi.org/10.1016/j.dsp.2024.104485},
+url = {https://www.sciencedirect.com/science/article/pii/S1051200424001106},
+author = {Sixiang Chen and Tian Ye and Yun Liu and Erkang Chen},
+keywords = {Image restoration, Local feature extraction, Hybrid self-attention, Adaptive control module, Multi-branch feed-forward network},
+abstract = {Recently, image restoration transformers have achieved comparable performance with previous state-of-the-art CNNs. In this work, we present Dual-former whose critical insight is to combine the powerful global modeling ability of self-attention modules and the local modeling ability of convolutions in an overall architecture. With convolution-based Local Feature Extraction modules equipped in the encoder and the decoder, we only adopt a novel Hybrid Transformer Block in the latent layer to model the long-distance dependence in spatial dimensions and handle the uneven distribution between channels. Such a design eliminates the substantial computational complexity in previous image restoration transformers and achieves superior performance on multiple image restoration tasks. Experiments demonstrate that Dual-former achieves a 1.91 dB gain over the state-of-the-art MAXIM method on the Indoor dataset for single image dehazing while consuming only 4.2% GFLOPs as MAXIM. For single image deraining, it exceeds the SOTA method by 0.1 dB PSNR on the average results of five datasets with only 21.5% GFLOPs. Dual-former also substantially surpasses the latest methods on various tasks, with fewer parameters.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+
+@inproceedings{Tong2024Parallel,
+author = {Tong, Lihan and Liu, Yun and Ye, Tian and Li, Weijia and Chen, Liyuan and Chen, Erkang},
+title = {Parallel Cross Strip Attention Network for Single Image Dehazing},
+year = {2024},
+isbn = {9798400716751},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3670105.3670130},
+doi = {10.1145/3670105.3670130},
+abstract = {The objective of single image dehazing is to restore hazy images and produce clear, high-quality visuals. Traditional convolutional models struggle with long-range dependencies due to their limited receptive field size. While Transformers excel at capturing such dependencies, their quadratic computational complexity in relation to feature map resolution makes them less suitable for pixel-to-pixel dense prediction tasks. Moreover, fixed kernels or tokens in most models do not adapt well to varying blur sizes, resulting in suboptimal dehazing performance. In this study, we introduce a novel dehazing network based on Parallel Stripe Cross Attention (PCSA) with a multi-scale strategy. PCSA efficiently integrates long-range dependencies by simultaneously capturing horizontal and vertical relationships, allowing each pixel to capture contextual cues from an expanded spatial domain. To handle different sizes and shapes of blurs flexibly, We employs a channel-wise design with varying convolutional kernel sizes and strip lengths in each PCSA to capture context information at different scales.Additionally, we incorporate a softmax-based adaptive weighting mechanism within PCSA to prioritize and leverage more critical features. We perform extensive testing on synthetic and real-world datasets and our PCSA-Net has established a new performance benchmark. This work not only advances the field of image dehazing but also serves as a reference for developing more diverse and efficient attention mechanisms. CCS Concepts: · Theory of computation → Theory and algorithms for application domains → Machine learning theory → Models of learning keywords: Parallel Cross Strip Attention, Single Image Dehazing, Horizontal Strip Attention, Vertical Strip Attention},
+booktitle = {Proceedings of the 2024 5th International Conference on Computing, Networks and Internet of Things},
+pages = {148–154},
+numpages = {7},
+location = {Tokyo, Japan},
+series = {CNIOT '24}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{Chen2024Degradation,
+bibtex_show={true},
+abbr={Front. Comput. Sci.},
+selected={true},
+author = {Chen, Erkang and Chen, Sixiang and Ye, Tian and Liu, Yun},
+title = {Degradation-adaptive neural network for jointly single image dehazing and desnowing},
+year = {2024},
+issue_date = {Apr 2024},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+volume = {18},
+number = {2},
+issn = {2095-2228},
+url = {https://doi.org/10.1007/s11704-023-2764-y},
+doi = {10.1007/s11704-023-2764-y},
+journal = {Front. Comput. Sci.},
+month = jan,
+numpages = {3},
+preview={snow.gif}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
