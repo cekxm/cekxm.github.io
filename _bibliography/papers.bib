@@ -35,6 +35,25 @@ abstract = {Infrared Small Target Detection (IRSTD) aims to detect small and dim
 }
 
 
+@inproceedings{Li2024NanoTrack,
+bibtex_show={true},
+author = {Li, Weijia and Chen, Liyuan and Cai, Junzhi and Tong, Lihan and Chen, Erkang and Huang, Bin},
+title = {NanoTrack: An Enhanced MOT Method by Recycling Low-score Detections from Light-weight Object Detector},
+year = {2024},
+isbn = {9798400716607},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3663976.3664008},
+doi = {10.1145/3663976.3664008},
+abstract = {In this paper, we introduced NanoTrack, a novel multi-object tracking (MOT) method that leverages light-weight object detectors to enhance tracking performance in real-time applications where computational resources are scarce. While light-weight detectors are efficient, they often produce an imbalance in detection quality, generating a significant number of low-scoring detections that pose challenges for tracking algorithms. Our approach innovatively utilizes these low-scoring detections for track initialization and maintenance, addressing the shortcomings observed in existing tracking by two-stage tracking methods like ByteTrack, which struggle with the abundance of low-scoring detections. By integrating two new light-weight modules, Refind High Detection (RHD) and Duplicate Track Checking (DTC), NanoTrack effectively incorporates low-scoring detections into the tracking process. Additionally, we enhance the pseudo-depth estimation technique for improved handling in dense target environments, mitigating issues like ID Switching. Our comprehensive experiments demonstrate that NanoTrack surpasses state-of-the-art two-stage TBD methods, including ByteTrack and SparseTrack, on benchmark datasets such as MOT16, MOT17, and MOT20, thereby establishing a new standard for MOT performance using light-weight detectors. The code is open source in https://github.com/VjiaLi/NanoTrack},
+booktitle = {Proceedings of the 2024 2nd Asia Conference on Computer Vision, Image Processing and Pattern Recognition},
+articleno = {24},
+numpages = {9},
+keywords = {computer vision, light-weight object detector, multi-object tracking},
+location = {Xiamen, China},
+series = {CVIPPR '24}
+}
+
 @INPROCEEDINGS{chen2024MUIR,
   author={Chen, Liyuan and Li, Weijia and Yang, Qingxia and Tong, Lihan and Chen, Erkang and Huang, Bin and Li, RuiWen},
   booktitle={2024 4th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)}, 
@@ -103,3 +122,73 @@ preview={snow.gif}
 }
 
 
+@article{Chen_2022_DISP ,
+language = {English},
+copyright = {Compilation and indexing terms, Copyright 2022 Elsevier Inc.},
+copyright = {Compendex},
+title = {Robust back-scattered light estimation for underwater image enhancement with polarization},
+journal = {Displays},
+author = {Chen, Sixiang and Chen, Erkang and Ye, Tian and Xue, Chenghao},
+volume = {75},
+year = {2022},
+issn = {01419382},
+URL = {http://dx.doi.org/10.1016/j.displa.2022.102296},
+} 
+
+
+@InProceedings{Ye2022Perce,
+author="Ye, Tian
+and Zhang, Yunchen
+and Jiang, Mingchao
+and Chen, Liang
+and Liu, Yun
+and Chen, Sixiang
+and Chen, Erkang",
+editor="Avidan, Shai
+and Brostow, Gabriel
+and Ciss{\'e}, Moustapha
+and Farinella, Giovanni Maria
+and Hassner, Tal",
+title="Perceiving and Modeling Density for Image Dehazing",
+booktitle="Computer Vision -- ECCV 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="130--145",
+abstract="In the real world, the degradation of images taken under haze can be quite complex, where the spatial distribution of haze varies from image to image. Recent methods adopt deep neural networks to recover clean scenes from hazy images directly. However, due to the generic design of network architectures and the failure in estimating an accurate haze degradation model, the generalization ability of recent dehazing methods on real-world hazy images is not ideal. To address the problem of modeling real-world haze degradation, we propose a novel Separable Hybrid Attention (SHA) module to perceive haze density by capturing positional-sensitive features in the orthogonal directions to achieve this goal. Moreover, a density encoding matrix is proposed to model the uneven distribution of the haze explicitly. The density encoding matrix generates positional encoding in a semi-supervised way -- such a haze density perceiving and modeling strategy captures the unevenly distributed degeneration at the feature-level effectively. Through a suitable combination of SHA and density encoding matrix, we design a novel dehazing network architecture, which achieves a good complexity-performance trade-off. Comprehensive evaluation on both synthetic datasets and real-world datasets demonstrates that the proposed method surpasses all the state-of-the-art approaches with a large margin both quantitatively and qualitatively. The code is released in https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing.",
+isbn="978-3-031-19800-7"
+}
+
+
+@InProceedings{Ye_2022_CVPRW,
+    author    = {Ye, Tian and Chen, Sixiang and Liu, Yun and Ye, Yi and Chen, Erkang and Li, Yuche},
+    title     = {Underwater Light Field Retention: Neural Rendering for Underwater Imaging},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {488-497}
+}
+
+@InProceedings{Ye_2022_ACCV,
+    author    = {Ye, Tian and Chen, Sixiang and Liu, Yun and Ye, Yi and Bai, Jinbin and Chen, Erkang},
+    title     = {Towards Real-time High-Definition Image Snow Removal: Efficient Pyramid Network with Asymmetrical Encoder-decoder Architecture},
+    booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+    month     = {December},
+    year      = {2022},
+    pages     = {366-381}
+}
+
+@article{Zhang_2022_Opt,
+author = {Dehuan Zhang and Jiaqi Shen and Jingchun Zhou and Erkang Chen and Weishi Zhang},
+journal = {Opt. Express},
+keywords = {Illumination design; Image processing; Image quality; Image quality assessment; Light scattering; Underwater imaging},
+number = {18},
+pages = {33412--33432},
+publisher = {Optica Publishing Group},
+title = {Dual-path joint correction network for underwater image enhancement},
+volume = {30},
+month = {Aug},
+year = {2022},
+url = {https://opg.optica.org/oe/abstract.cfm?URI=oe-30-18-33412},
+doi = {10.1364/OE.468633}
+}
