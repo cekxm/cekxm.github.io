@@ -110,6 +110,8 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.2.1)
       jekyll (>= 3.6, < 5.0)
+    jekyll-compose (0.12.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
@@ -254,6 +256,7 @@ DEPENDENCIES
   httparty
   jekyll
   jekyll-archives
+  jekyll-compose
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json

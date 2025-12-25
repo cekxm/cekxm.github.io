@@ -219,6 +219,13 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  # 新增：允许在 Markdown 中使用 {: ...} 来给元素添加类名或属性
+  attr_list_support: true
+  # 新增：确保 HTML 块也能被正确解析（对你那些 <img> 标签很有帮助）
+  parse_block_html: true
+  parse_span_html: true
+  
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
