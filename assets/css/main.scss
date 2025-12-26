@@ -24,9 +24,69 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
+/* 1. 设置基础行高（控制段落内部的行距） */
 .post {
   p, li {
-    line-height: 1.8 !important; /* 数值越大，行距越宽 */
-    margin-bottom: 1.25rem;     /* 顺便调整段落之间的距离，保持视觉平衡 */
+    line-height: 1.8;  /* 稍微适中的行高 */
   }
+
+  /* 2. 专门处理列表：减小列表项之间的垂直间距 */
+  ul li, ol li {
+    margin-bottom: 4px; /* 控制列表项 (li) 之间的距离 */
+    line-height: 1.6;   /* 列表内行距可以比正文稍微紧凑一点 */
+  }
+
+  /* 3. 处理段落之间：增加段落 (p) 之间的距离 */
+  p {
+    margin-bottom: 1.5rem; /* 只有段落结束处才有较大的空隙 */
+  }
+
+  /* 4. 处理嵌套列表：防止缩进后的列表间距过大 */
+  li > ul, li > ol {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+}
+
+/* ============================================================
+   Solarized Light 风格定制
+   ============================================================ */
+
+body, 
+.post, 
+.post-content p, 
+.post-content li, 
+.post-content div {
+    color: #222222 !important; /* 正确的 Solarized Base 01：灰青色 */
+}
+
+/* 2. 统一所有层级的标题颜色 */
+/* 包括博文大标题、正文内的 h1-h6 */
+.post-title,
+.post h1, 
+.post h2, 
+.post h3, 
+.post h4, 
+.post h5, 
+.post h6,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    color: #333333 !important;
+}
+
+/* 3. 统一加粗 (Bold) 的颜色 */
+/* 在 Markdown 中对应的就是 **text** */
+b, 
+strong, 
+.post-content strong, 
+.post-content b {
+    color: #333333 !important;
+}
+
+
+.post .highlight {
+    background: #fdf6e3; /* Solarized Light 背景 */
+    /* ... 其他高亮颜色 ... */
 }
