@@ -12,8 +12,10 @@ title: "$TITLE"
 date: $DATE +0800
 categories: []
 description: 简要介绍
-tags: 
-thumbnail: 
+tags:
+thumbnail:
+toc:
+  sidebar: left # or right
 typora-root-url: ../
 ---
 
