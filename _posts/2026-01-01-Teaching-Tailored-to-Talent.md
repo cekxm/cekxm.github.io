@@ -11,7 +11,7 @@ toc:
 typora-root-url: ../
 ---
 
-![image-20260101091803120](/images/2026-01-01-Teaching-Tailored-to-Talent/image-20260101091803120.png){: .img-fluid}
+![image-20260101091803120](/images/2026-01-01-Teaching-Tailored-to-Talent/image-20260101091803120.png){: .img-fluid data-zoomable=""}
 
 ## 介绍
 
