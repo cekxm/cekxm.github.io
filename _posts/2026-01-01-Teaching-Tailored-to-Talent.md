@@ -3,7 +3,7 @@ layout: post
 title: "Teaching Tailored To Talent"
 date: 2026-01-01 09:20:30 +0800
 categories: []
-description: 简要介绍
+description: Prompt, Depth-Anything, Diffusion, Image Restoration
 tags: 
 thumbnail: 
 toc:
